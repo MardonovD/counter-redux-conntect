@@ -15,3 +15,10 @@
   width: 100%;
   z-index: -1;
 }
+
+.cloud .content {
+  position: absolute;
+  left: 0;
+  top: 30%;
+  width: 50%;
+}
