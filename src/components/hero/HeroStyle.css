@@ -18,3 +18,11 @@
   padding: 1rem;
   margin-left: 6rem;
 }
+
+.hero h1 {
+  color: #f8f8f8;
+}
+
+.hero .blue {
+  color: var(--primary-color);
+}
