@@ -29,6 +29,8 @@
 }
 
 .navbar .nav-menu {
+  height: 100%;
+  align-items: center;
   display: flex;
   padding: 1rem;
 }
@@ -36,5 +38,5 @@
 .navbar li {
   padding: 1rem;
   font-weight: 600;
-  color: #fff ;
+  color: #fff;
 }
