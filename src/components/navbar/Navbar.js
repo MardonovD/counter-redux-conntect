@@ -1,5 +1,6 @@
 import React from "react";
 import { SiDatabricks } from "react-icons/si";
+import { FaBars } from "react-icons/fa";
 import "./NavbarStyle.css";
 const Navbar = () => {
   return (
@@ -17,6 +18,9 @@ const Navbar = () => {
           <li>Contact</li>
           <button>Sign in</button>
         </ul>
+        <div className="hamburger">
+          <FaBars />
+        </div>
       </div>
     </div>
   );
