@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import { SiDatabricks } from "react-icons/si";
 import { FaBars } from "react-icons/fa";
 import "./NavbarStyle.css";
 const Navbar = () => {
+  const [nav, setNav] = useState(false);
+  const handleNav = () => setNav(!nav);
   return (
     <div className="navbar">
       <div className="container">
@@ -11,15 +13,15 @@ const Navbar = () => {
           <h1>Secured</h1>
         </div>
 
-        <ul className="nav-menu">
+        <ul className={nav ? "nav-menu active" : "nav-menu"}>
           <li>Home</li>
           <li>Recovery</li>
           <li>Cloud </li>
           <li>Contact</li>
           <button>Sign in</button>
         </ul>
-        <div className="hamburger">
-          <FaBars />
+        <div className="hamburger " onClick={handleNav}>
+          <FaBars className="icon" />
         </div>
       </div>
     </div>

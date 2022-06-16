@@ -26,6 +26,8 @@
 .hamburger {
   display: none;
   padding: 1rem;
+  position: static;
+  z-index: 10;
 }
 
 .navbar .nav-menu {
@@ -39,6 +41,7 @@
   padding: 1rem;
   font-weight: 600;
   color: #fff;
+  cursor: pointer;
 }
 
 .navbar .icon {
@@ -56,10 +59,14 @@
     background: rgba(0, 0, 0, 0.8);
     width: 100%;
     top: 0;
-    left: 0;
+    left: -100%;
     align-items: center;
     justify-content: center;
     height: 100vh;
+  }
+
+  .navbar .active {
+    left: 0;
   }
   .navbar li {
     margin-right: 1rem;
