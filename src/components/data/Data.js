@@ -15,7 +15,9 @@ const Data = () => {
             pariatur deserunt, quae nesciunt eius doloribus ipsam quia porro
             obcaecati sapiente.
           </p>
-          <button>Sign Up</button>
+          <div>
+            <button>Sign Up</button>
+          </div>
         </div>
       </div>
     </div>
