@@ -50,4 +50,12 @@
   .navbar .hamburger {
     display: block;
   }
+  .navbar .nav-menu {
+    position: absolute;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    top: 0;
+    height: 100vh;
+  }
 }
