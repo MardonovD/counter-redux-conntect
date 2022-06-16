@@ -63,6 +63,7 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
+    transition: all ease-in-out 1s;
   }
 
   .navbar .active {
