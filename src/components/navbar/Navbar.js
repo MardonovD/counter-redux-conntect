@@ -7,7 +7,7 @@ const Navbar = () => {
     <div className="navbar">
       <div className="container">
         <div className="logo">
-          <SiDatabricks classNameicon />
+          <SiDatabricks className="icon" />
           <h1>Secured</h1>
         </div>
 
