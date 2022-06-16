@@ -3,3 +3,8 @@
   height: 100vh;
   background: url("../../assets/codeTag.webp") no-repeat center center/cover;
 }
+
+.hero .container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
