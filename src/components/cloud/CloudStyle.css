@@ -21,4 +21,16 @@
   left: 0;
   top: 30%;
   width: 50%;
+  padding: 1rem;
+}
+
+.cloud p {
+  color: #f8f8f8;
+}
+
+@media screen and (max-width: 940px) {
+  .cloud .content {
+    left: 0;
+    width: 100%;
+  }
 }
