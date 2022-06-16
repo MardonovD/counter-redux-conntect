@@ -14,6 +14,9 @@ const Cloud = () => {
             pariatur deserunt, quae nesciunt eius doloribus ipsam quia porro
             obcaecati sapiente. Lorem ipsum dolor sit amet, consectetur
           </p>
+          <div>
+            <button>Sign Up</button>
+          </div>
         </div>
       </div>
     </div>
