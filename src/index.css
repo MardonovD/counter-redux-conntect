@@ -26,3 +26,36 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+h2 {
+  font-size: 3rem;
+}
+
+.container {
+  max-width: 1240px;
+  margin: auto;
+}
+
+button {
+  font-family: "Roboto", sans-serif;
+  padding: 0.7rem 1.5rem;
+  margin: 1rem 0;
+  background-color: var(--primary-color);
+}
