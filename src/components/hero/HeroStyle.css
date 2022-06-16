@@ -26,3 +26,9 @@
 .hero .blue {
   color: var(--primary-color);
 }
+
+@media screen and (max-width: 940px) {
+  .hero .content {
+    margin-left: 1rem;
+  }
+}
