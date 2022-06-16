@@ -40,3 +40,14 @@
   font-weight: 600;
   color: #fff;
 }
+
+.navbar .icon {
+  font-size: 1.4rem;
+  color: #fff;
+}
+
+@media screen and (max-width: 940px) {
+  .navbar .hamburger {
+    display: block;
+  }
+}
